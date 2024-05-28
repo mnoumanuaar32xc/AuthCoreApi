@@ -3422,11 +3422,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Nouman\\.Net Angular Traning\\CodePulse\\API\\TraningWebApi\\TraningWebApi.csproj",
+      "projectUniqueName": "D:\\Nouman\\.Net Angular Traning\\CodePulse\\API\\TraningWebApi\\AuthCoreApi\\TraningWebApi.csproj",
       "projectName": "TraningWebApi",
-      "projectPath": "D:\\Nouman\\.Net Angular Traning\\CodePulse\\API\\TraningWebApi\\TraningWebApi.csproj",
+      "projectPath": "D:\\Nouman\\.Net Angular Traning\\CodePulse\\API\\TraningWebApi\\AuthCoreApi\\TraningWebApi.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "D:\\Nouman\\.Net Angular Traning\\CodePulse\\API\\TraningWebApi\\obj\\",
+      "outputPath": "D:\\Nouman\\.Net Angular Traning\\CodePulse\\API\\TraningWebApi\\AuthCoreApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

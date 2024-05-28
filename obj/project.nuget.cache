@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K1cBT16rD04u9qRhcLEtsTdmWU6dzX/STx6smmL6dmnZUV4sfpLB2D/y1xgOSrLGnzcVP5d4oYZLbt/tBIT2PQ==",
+  "dgSpecHash": "sf6Z69d+Kb4qdaWjSTmAYFAv2KM8iHebxOLuIMN75KChqCShkdr4YX86h0bwN0qM8F2yx1jPIVNP4fnyB4JWJw==",
   "success": true,
-  "projectFilePath": "D:\\Nouman\\.Net Angular Traning\\CodePulse\\API\\TraningWebApi\\TraningWebApi.csproj",
+  "projectFilePath": "D:\\Nouman\\.Net Angular Traning\\CodePulse\\API\\TraningWebApi\\AuthCoreApi\\TraningWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
