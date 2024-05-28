@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using TraningWebApi.Data;
+using TraningWebApi.Repositories.Implementations;
+using TraningWebApi.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,11 +14,11 @@ builder.Services.AddSwaggerGen();
 
 
 builder.Services.AddDbContext<ApplicationDbContext>(options => {
-    options.UseSqlServer(builder.Configuration.GetConnectionString("CodePulseConnectionString")) ;
+    options.UseSqlServer(builder.Configuration.GetConnectionString("CodePulseConnectionString"));
 });
 
-
-
+// add TrainingRepository DI
+builder.Services.AddScoped<ITrainingRepository, TrainingRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
