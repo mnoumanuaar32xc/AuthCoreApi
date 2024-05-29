@@ -74,3 +74,10 @@ D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\obj\Debug
 D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\obj\Debug\net7.0\TraningWebApi.pdb
 D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\obj\Debug\net7.0\TraningWebApi.genruntimeconfig.cache
 D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\obj\Debug\net7.0\ref\TraningWebApi.dll
+D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Nouman\.Net Angular Traning\CodePulse\API\TraningWebApi\AuthCoreApi\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
