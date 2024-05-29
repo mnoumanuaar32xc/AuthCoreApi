@@ -19,22 +19,25 @@ namespace TraningWebApi.Data
         {
             base.OnModelCreating(builder);
             // generate guid by C# Interactive command  Guid.NewGuid()
-            var readerRole = "56b1c4a5-0fa5-4713-bc05-9dfca0086082";
-            var writerRole = "15d1d7c3-9087-43be-a585-3822805f73e0";
+            var readerRoleId = "56b1c4a5-0fa5-4713-bc05-9dfca0086082";
+            var writerRoleId = "15d1d7c3-9087-43be-a585-3822805f73e0";
 
             var roles = new List<IdentityRole>
-            { new  IdentityRole()
-            {
-                Id=writerRole,
+            { new IdentityRole()
+                {
+                    Id= readerRoleId,
+                Name="Reader".ToUpper(),
                 NormalizedName="Reader".ToUpper(),
-                ConcurrencyStamp=readerRole
-            },
-                new  IdentityRole()
-            {
-                Id=writerRole,
+                ConcurrencyStamp=readerRoleId
+                },
+                 new IdentityRole()
+                 {
+                Id= writerRoleId,
+                Name="Writer".ToUpper(),
                 NormalizedName="Writer".ToUpper(),
-                ConcurrencyStamp=writerRole
-            }
+                ConcurrencyStamp=writerRoleId
+                }
+
 
             };
 
@@ -67,15 +70,17 @@ namespace TraningWebApi.Data
             var adminRoles = new List<IdentityUserRole<string>>()
             {
 
-            new(){
+            new()
+            {
             UserId=adminUserId,
-            RoleId=readerRole,
+            RoleId=readerRoleId,
             },
-            new(){
-
+            new()
+            {
             UserId=adminUserId,
-            RoleId=writerRole
+            RoleId=writerRoleId,
             }
+
             };
             // Seed the roles by users
             builder.Entity<IdentityUserRole<string>>().HasData(adminRoles);

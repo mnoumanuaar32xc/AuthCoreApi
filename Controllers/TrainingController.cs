@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using TraningWebApi.Model.Domain;
 using TraningWebApi.Model.DTO;
@@ -43,6 +44,7 @@ namespace TraningWebApi.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public async Task<List<TrainingDto>> GettAllTrainings()
         {
             var trainingList = await trainingRepository.GetAsync();

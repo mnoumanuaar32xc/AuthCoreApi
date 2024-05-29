@@ -11,8 +11,8 @@
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.20",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.20",
           "Microsoft.AspNetCore.OpenApi": "7.0.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.19",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.19",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.20",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.20",
           "Microsoft.IdentityModel.JsonWebTokens": "7.6.0",
           "Microsoft.IdentityModel.Tokens": "7.6.0",
           "Swashbuckle.AspNetCore": "6.4.0",
@@ -210,7 +210,7 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/7.0.20": {},
-      "Microsoft.EntityFrameworkCore.Design/7.0.19": {
+      "Microsoft.EntityFrameworkCore.Design/7.0.20": {
         "dependencies": {
           "Humanizer.Core": "2.14.1",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.20",
@@ -219,8 +219,8 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "7.0.19.0",
-            "fileVersion": "7.0.1924.21004"
+            "assemblyVersion": "7.0.20.0",
+            "fileVersion": "7.0.2024.26903"
           }
         }
       },
@@ -236,21 +236,21 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/7.0.19": {
+      "Microsoft.EntityFrameworkCore.SqlServer/7.0.20": {
         "dependencies": {
           "Microsoft.Data.SqlClient": "5.1.5",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.20"
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
-            "assemblyVersion": "7.0.19.0",
-            "fileVersion": "7.0.1924.21004"
+            "assemblyVersion": "7.0.20.0",
+            "fileVersion": "7.0.2024.26903"
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/7.0.19": {
+      "Microsoft.EntityFrameworkCore.Tools/7.0.20": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "7.0.19"
+          "Microsoft.EntityFrameworkCore.Design": "7.0.20"
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
@@ -784,12 +784,12 @@
       "path": "microsoft.entityframeworkcore.analyzers/7.0.20",
       "hashPath": "microsoft.entityframeworkcore.analyzers.7.0.20.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Design/7.0.19": {
+    "Microsoft.EntityFrameworkCore.Design/7.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-NL3sOFy96xh6Az2CG085glcAt7ASt4n7t7g3hVSfnFOXLPLCEzV9qe0d1WgDurnBHCXotVZujh2ns4j05zr0Cg==",
-      "path": "microsoft.entityframeworkcore.design/7.0.19",
-      "hashPath": "microsoft.entityframeworkcore.design.7.0.19.nupkg.sha512"
+      "sha512": "sha512-rjxhuC9nUzBdZYxvTpKxuUGzIlGPf5Aj01HzOj7Y4G00PDM4QM5GdRUHGSujNkuwB3oD2j2zHPxwhIqQCznRfg==",
+      "path": "microsoft.entityframeworkcore.design/7.0.20",
+      "hashPath": "microsoft.entityframeworkcore.design.7.0.20.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.20": {
       "type": "package",
@@ -798,19 +798,19 @@
       "path": "microsoft.entityframeworkcore.relational/7.0.20",
       "hashPath": "microsoft.entityframeworkcore.relational.7.0.20.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/7.0.19": {
+    "Microsoft.EntityFrameworkCore.SqlServer/7.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ta9ZCegJM/1NDszJj9GzcorCNFSGdkCoMHsp5hUv+QPEJlIGVUkVJ9pVXv67i2lRw53s4szehtHIdrAwe0eI9g==",
-      "path": "microsoft.entityframeworkcore.sqlserver/7.0.19",
-      "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.19.nupkg.sha512"
+      "sha512": "sha512-ukRrvvgDRbs5At/4zQv84gxi+arXvuwRvUHL1cQOdWyOAvSBBieVSmbFhR8ihbbE1Czo3MduxJ+eF2ztHVYC3A==",
+      "path": "microsoft.entityframeworkcore.sqlserver/7.0.20",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.7.0.20.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Tools/7.0.19": {
+    "Microsoft.EntityFrameworkCore.Tools/7.0.20": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DKtjl+fPlO0xNaxAqL51mAhdV1YV83WSyEz7K1Hw9kvrQeEfpfmvJc6krqruN7CG0PJAVx/ot6unzfpHNKDjNQ==",
-      "path": "microsoft.entityframeworkcore.tools/7.0.19",
-      "hashPath": "microsoft.entityframeworkcore.tools.7.0.19.nupkg.sha512"
+      "sha512": "sha512-tu4A/gRuWxAg0c+7i+SzP5VYDwPUTgcND6ymNxwgcLBXr24tG16sNqUn7/fpMhBTeXIpceHu5DgQ2RJTtwoJag==",
+      "path": "microsoft.entityframeworkcore.tools/7.0.20",
+      "hashPath": "microsoft.entityframeworkcore.tools.7.0.20.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
       "type": "package",

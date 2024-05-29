@@ -33,7 +33,7 @@ builder.Services.AddScoped<ITrainingRepository, TrainingRepository>();
 // IdentityCore
 builder.Services.AddIdentityCore<IdentityUser>()
     .AddRoles<IdentityRole>()
-    .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("Traning")
+    .AddTokenProvider<DataProtectorTokenProvider<IdentityUser>>("TrainingDb")
     .AddEntityFrameworkStores<AuthDbContext>()
     .AddDefaultTokenProviders();
 
