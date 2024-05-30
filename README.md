@@ -87,9 +87,29 @@ Typically contain a subset of the properties in the domain model.
 
 # Enable the CORS
 In Progam.css allow the CROS then restart the application.
- 
-
 ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/43246c26-186a-47c7-9f61-968f36574e9d)
+
+# Authorization
+1. User permission
+2. Roles, polices ,Claims
+3. Check if user has read only or read write role
+
+ ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/cba00210-a819-4aa0-9835-a77b4d09add7)
+# Authentication Flow JWT
+We are using an authentication method in which the server creates a JWT token and pass it to the client.
+JWT or Json web tokens is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a Json object.
+In our authentication flow, users will come to a website that wants to talk to our API.
+The users will type in their username and password using a login form and the website will send this information to the API.
+The API will check the username and password and if this information is correct it will generate a JWT token for the website user.
+The website will then use this JWT token as a way to make Http calls to the API to access the resource of the API and get data from the API.
+The API will check if the token is correct and if it is, the API will return the data that the website asked for.
+If the website doesn't send a JWT or it is invalid, then no data is returned from the API.
+
+
+
+
+
+
 
 
 
