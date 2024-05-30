@@ -29,7 +29,8 @@ builder.Services.AddDbContext<AuthDbContext>(options =>
 
 // add TrainingRepository DI
 builder.Services.AddScoped<ITrainingRepository, TrainingRepository>();
- 
+builder.Services.AddScoped<ITokenRepository, TokenRepository>();
+
 // IdentityCore
 builder.Services.AddIdentityCore<IdentityUser>()
     .AddRoles<IdentityRole>()

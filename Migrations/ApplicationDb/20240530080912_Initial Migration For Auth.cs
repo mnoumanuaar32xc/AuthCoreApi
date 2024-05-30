@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace TraningWebApi.Migrations.ApplicationDb
 {
     /// <inheritdoc />
-    public partial class InitialMigrationForApplication : Migration
+    public partial class InitialMigrationForAuth : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

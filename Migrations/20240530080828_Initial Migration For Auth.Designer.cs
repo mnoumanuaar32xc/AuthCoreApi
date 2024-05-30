@@ -12,7 +12,7 @@ using TraningWebApi.Data;
 namespace TraningWebApi.Migrations
 {
     [DbContext(typeof(AuthDbContext))]
-    [Migration("20240529105347_Initial Migration For Auth")]
+    [Migration("20240530080828_Initial Migration For Auth")]
     partial class InitialMigrationForAuth
     {
         /// <inheritdoc />
@@ -162,14 +162,15 @@ namespace TraningWebApi.Migrations
                         {
                             Id = "92246535-90b9-4ce2-aedd-14ac92f308be",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "02c8dad3-692b-469f-9071-a2ef3783428f",
+                            ConcurrencyStamp = "bfa3ad3c-a3dd-4fe0-8f97-b923eaa52e1e",
                             Email = "admin.test.com",
                             EmailConfirmed = false,
                             LockoutEnabled = false,
                             NormalizedEmail = "ADMIN.TEST.COM",
                             NormalizedUserName = "ADMIN.TEST.COM",
+                            PasswordHash = "AQAAAAIAAYagAAAAEGs+JKeQ0XAk3M3G+rbrt4vJ2MnXj72X/omo6gemy1xLxmJESDw86KgZGIxNfmt6+g==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "393a5a22-de8c-42f7-a2f3-5dbe5d6b7113",
+                            SecurityStamp = "d5195665-cbc8-46a2-a7ae-bfbf235fcff3",
                             TwoFactorEnabled = false,
                             UserName = "admin.test.com"
                         });

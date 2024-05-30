@@ -12,8 +12,8 @@ using TraningWebApi.Data;
 namespace TraningWebApi.Migrations.ApplicationDb
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240529105524_Initial Migration For Application")]
-    partial class InitialMigrationForApplication
+    [Migration("20240530080912_Initial Migration For Auth")]
+    partial class InitialMigrationForAuth
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

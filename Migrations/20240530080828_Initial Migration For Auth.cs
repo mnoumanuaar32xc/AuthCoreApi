@@ -170,7 +170,7 @@ namespace TraningWebApi.Migrations
             migrationBuilder.InsertData(
                 table: "AspNetUsers",
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
-                values: new object[] { "92246535-90b9-4ce2-aedd-14ac92f308be", 0, "02c8dad3-692b-469f-9071-a2ef3783428f", "admin.test.com", false, false, null, "ADMIN.TEST.COM", "ADMIN.TEST.COM", null, null, false, "393a5a22-de8c-42f7-a2f3-5dbe5d6b7113", false, "admin.test.com" });
+                values: new object[] { "92246535-90b9-4ce2-aedd-14ac92f308be", 0, "bfa3ad3c-a3dd-4fe0-8f97-b923eaa52e1e", "admin.test.com", false, false, null, "ADMIN.TEST.COM", "ADMIN.TEST.COM", "AQAAAAIAAYagAAAAEGs+JKeQ0XAk3M3G+rbrt4vJ2MnXj72X/omo6gemy1xLxmJESDw86KgZGIxNfmt6+g==", null, false, "d5195665-cbc8-46a2-a7ae-bfbf235fcff3", false, "admin.test.com" });
 
             migrationBuilder.InsertData(
                 table: "AspNetUserRoles",

@@ -60,6 +60,8 @@ namespace TraningWebApi.Data
                 NormalizedEmail = "admin.test.com".ToUpper(),
                 NormalizedUserName = "admin.test.com".ToUpper()
             };
+            admin.PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(admin, "Admin@123");
+
             // seed the admin user into Identity 
             builder.Entity<IdentityUser>().HasData(admin);
 
