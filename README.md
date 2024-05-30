@@ -5,8 +5,12 @@
 1. Code First Approach
 2. Dependency Injection
 3. Authentication
-4. Role Based Authorization
-5. Role Based Access  
+   3.1 User permission
+   3.2 Roles, polices ,Claims
+   3.3 Check if user has read only or read write role
+4. Authentication Flow JWT
+5. Role Based Authorization
+7. Role Based Access  
 
 # in this Api example we will cover following Examples 
  ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/ff50a2d8-f291-432c-8b6f-9d77ea0ebf44)
