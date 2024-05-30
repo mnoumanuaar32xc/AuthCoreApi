@@ -85,6 +85,14 @@ Typically contain a subset of the properties in the domain model.
  ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/7b51910a-fdac-4aed-94c7-15034a74e0b4)
 
 
+# Enable the CORS
+In Progam.css allow the CROS then restart the application.
+ 
+
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/43246c26-186a-47c7-9f61-968f36574e9d)
+
+
+
 
 
 
