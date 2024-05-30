@@ -6,8 +6,8 @@
 2. Dependency Injection
 3. Authentication (User permission, Roles, polices ,Claims, Check if user has read only or read write role)
 5.  Authentication Flow JWT
-6.  Role Based Authorization
-7.  Role Based Access  
+6.  Role Based Authorization (assign Writer, Reader roles )
+7.  Role Based Access  (Writer, Reader access)
 
 # in this Api example we will cover following Examples 
  ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/ff50a2d8-f291-432c-8b6f-9d77ea0ebf44)
