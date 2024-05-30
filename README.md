@@ -11,7 +11,12 @@
 # Create a Asp .NET Core Web API
 ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/2b1f1dc8-d5c6-4e5b-94d6-2d8c88627a3e)
 
-Create Models![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/41662c5a-545a-4aa4-8e69-b3fa67cae5ab)
+ # Create Models
+Create folder Model => Domain
+Our Model will be Training
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/c1890899-3d00-4bc0-854d-e4f532c277ad)
+
+
 
 
 
