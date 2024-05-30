@@ -1,4 +1,4 @@
-# AuthCoreApi
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/4031a2e5-dba3-4b8c-a286-7669a9eed64a)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/8f89a693-08b7-4dad-aa90-b494f436defc)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/dfc16ba9-56aa-4aca-9270-880cef8f0a59)# AuthCoreApi
  AuthCoreApi is a robust .NET Core API designed with a Code-First DB approach, integrating comprehensive authentication, role-based authorization and access controls to ensure secure data management
 
  # .Net Core Web API 
@@ -232,6 +232,25 @@ If we set the right role which are available to login person so it will be 200 i
 ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/23d4ad40-ef7b-4d4b-9d46-26e1ff1d9685)
 
 # Auth Controller – Registered User-API
+
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/c8584040-837f-4087-99a2-98090e87e8cc)
+
+# Auth Register Api
+When we run the Auth Register Api method it return 500 error because we did not create any table for authenticate user and not run the migration.
+
+ # Auth Controller – Registered User-API
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/6fa36587-7c4d-4688-88e5-cf43f180e0ca)
+
+# Create a Action Register
+ In this action method we are creating a user for user creation we need email and password and we are assuming this user will be only read-only user so we just assign him Reader role. 
+Try to login with new user and check authorization with new token 
+
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/3c418987-7166-4359-9886-c5034f008359)
+
+ 
+# in this Api example we covered following Examples 
+
+![Uploading image.png…]()
 
 
 
