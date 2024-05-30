@@ -5,7 +5,7 @@
 1. Code First Approach
 2. Dependency Injection
 3. Authentication
-   # (User permission, Roles, polices ,Claims, Check if user has read only or read write role)
+   ## (User permission, Roles, polices ,Claims, Check if user has read only or read write role)
 5.  Authentication Flow JWT
 6.  Role Based Authorization
 7.  Role Based Access  
