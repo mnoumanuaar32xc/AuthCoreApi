@@ -231,6 +231,11 @@ If we set the right role which are available to login person so it will be 200 i
 
 ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/23d4ad40-ef7b-4d4b-9d46-26e1ff1d9685)
 
+# Auth Controller – Registered User-API
+
+
+
+
 
 
 
