@@ -1,4 +1,4 @@
- # AuthCoreApi
+# AuthCoreApi
  AuthCoreApi is a robust .NET Core API designed with a Code-First DB approach, integrating comprehensive authentication, role-based authorization and access controls to ensure secure data management
 
  # .Net Core Web API 
@@ -177,11 +177,65 @@ You can see after Migration Asp.net Tables are created
 ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/5e9ac808-af72-42e5-ba84-5078959e0877)
 
 # Login Controller – Login User-API 
+We are going to create a new action method called login user, and with the help of
+which we are able to authenticate our users.
+So we will ask them a user name or an email and a password and we will first check the database.
+If these two combination were successful, if they were, we will ultimately give them the JWT token.
+
+ # Login Controller – Login User-API
+
+ We are going to create a new action method called login user, and with the help of
+which we are able to authenticate our users.
+So we will ask them a user name or an email and a password and we will first check the database.
+If these two combination were successful, if they were, we will ultimately give them the JWT token.
+
+# Login Action  
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/daac2601-a15e-49f5-9d7d-d2260db54428)
+
+# Try Login Action
+ ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/2df2284d-2d2f-45b8-9477-5f39196d711c)
+
+# Create and Generate Token 
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/0a9b3d45-a3bc-498b-a486-264f60972663)
+
+# Assign Token to Login  
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/aa338c85-0169-4925-ad6d-b48cc6bc5bd5)
+
+# Add DI (TokenRepository into Program.cs)
+builder.Services.AddScoped<ITokenRepository, TokenRepository>();
+ # Try Login 
+ bellow request try in Post man 
+ 
+  curl -X 'POST' \ 'https://localhost:7115/api/Auth/Login' \ -H 'accept: */*' \ -H 'Content-Type: application/json' \ -d '{ "email": "admin.test.com", "password": "Admin@123" }‘
+
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/cc77e379-8ff3-4a29-a5b3-ace7d4c13019)
+
+# Try other methods with [Athuorize] 
+With out token assign 401 error will receive .
+Now when you will assign token with your 
+Request then it will return 200. 
+Now for each request which have [Authorized ]
+Action Method , token will be necessary
+
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/8b2f7a31-268c-42ea-b6cc-6631218d4631)
+
+
+
+
 
  
 
 
- 
+
+
+
+
+
+
+
+
+
+
 
  
 
