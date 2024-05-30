@@ -37,10 +37,22 @@ DI is responsible for creating and managing instances.
 DI works on this fundamental that instead of instantiating object within a class those objects are passed in as parameters to the class , like passing it to constructer or method.
 .NET core provides built in container that can be used to manage the dependencies of an application.
 The container is responsible for creating and managing of services which are registered with the container when the application start
-Add services to the container. 
-Pass the connection string  to ApplicationDbContext
+
+1. Add services to the container. 
+2. Pass the connection string  to ApplicationDbContext
  
 ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/d42d95f0-2680-4273-9319-c8df0965a771)
+
+
+# Running EF Core Migrations
+In visual Studio Open the NuGet Package Manager Console
+For creating DB and schema type  PM> Add-Migration "Initial Migration“ 
+It is creating a script that EF core can use to create a latter on a SQL script and then create a DB.
+
+# PM> Add-Migration InitialCreate -Context ApplicationDbContext
+# PM> update-database -context ApplicationDbContext
+ 
+
 
 
 
