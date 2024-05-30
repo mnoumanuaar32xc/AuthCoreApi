@@ -1,4 +1,4 @@
-![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/4031a2e5-dba3-4b8c-a286-7669a9eed64a)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/8f89a693-08b7-4dad-aa90-b494f436defc)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/dfc16ba9-56aa-4aca-9270-880cef8f0a59)# AuthCoreApi
+# AuthCoreApi
  AuthCoreApi is a robust .NET Core API designed with a Code-First DB approach, integrating comprehensive authentication, role-based authorization and access controls to ensure secure data management
 
  # .Net Core Web API 
