@@ -52,6 +52,48 @@ It is creating a script that EF core can use to create a latter on a SQL script 
 # PM> Add-Migration InitialCreate -Context ApplicationDbContext
 # PM> update-database -context ApplicationDbContext
  
+----------------------------------------
+
+# Create Controller and Action 
+Get/Post/Put/Delete
+
+# Understanding DTOs and Domain Models
+DTO data transfer objects , use to transfer data between different layers
+Typically contain a subset of the properties in the domain model.
+
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/73297014-9881-4e59-bc06-5fe39ca89a93)
+
+# Advantages of DTOs 
+1. Separation of Concerns 
+2. Performance 
+3. Security  
+
+ # Create a First Action Method , create new Training. 
+
+ # Repository Pattern
+ ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/bcb59a19-401d-4cc7-9f72-ae1093503291)
+1. Repository pattern to separate the data access layer from application
+2. Provides interface without exposing Implementations
+3. Helps create abstractions layer between application and data store which is implemented by concreate repository class.
+4. Decoupling
+5. Consistency
+6. Performance
+7. Multiple data sources (switching)
+
+# Implement Repository Pattern inside Application
+
+ ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/7b51910a-fdac-4aed-94c7-15034a74e0b4)
+
+
+
+
+
+
+
+ 
+
+
+
 
 
 
