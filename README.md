@@ -108,8 +108,7 @@ The website will then use this JWT token as a way to make Http calls to the API 
 The API will check if the token is correct and if it is, the API will return the data that the website asked for.
 If the website doesn't send a JWT or it is invalid, then no data is returned from the API.
 
-![Uploading image.png…]()
-
+ ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/7dbfa344-f380-4469-90a3-a78c576d9518)
 
 
 # Install Nuget Package API
