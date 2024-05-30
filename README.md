@@ -108,7 +108,9 @@ The website will then use this JWT token as a way to make Http calls to the API 
 The API will check if the token is correct and if it is, the API will return the data that the website asked for.
 If the website doesn't send a JWT or it is invalid, then no data is returned from the API.
 
-    ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/3e83d0e7-2e03-40d1-97ef-9b8d8dcba7f7)
+![Uploading image.png…]()
+
+
 
 # Install Nuget Package API
 Microsoft.AspNetCore.Authentication.JwtBearer
