@@ -13,6 +13,8 @@
 
  # Create Models
 ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/38b769ef-6bd4-4423-a14d-586e8bc007da)
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/ca775463-e102-4da0-a3c4-c7bbdcb6f706)
+
 
 # Nugget Packages
 We are following code first approach that need entity framework core  that is needed for our application. And we have domain model that is basically derive the structure of database . We will tells Entity framework that is our database models and entity framework will create database for us. For that purpose we need to ist install entity framework packages
