@@ -1,4 +1,4 @@
-![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/4edd2d41-8582-4608-9ae4-ddfcc62557e6)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/c8776534-e06d-4aba-825e-07ac0773afc7)# AuthCoreApi
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/014a3ef1-79b4-423e-be92-b66942e34fa1)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/d4461a92-ba88-4bdf-9c04-6804f0a646da)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/4edd2d41-8582-4608-9ae4-ddfcc62557e6)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/c8776534-e06d-4aba-825e-07ac0773afc7)# AuthCoreApi
  AuthCoreApi is a robust .NET Core API designed with a Code-First DB approach, integrating comprehensive role-based authorization and access controls to ensure secure data management
 
  # .Net Core Web API 
@@ -95,6 +95,7 @@ In Progam.css allow the CROS then restart the application.
 3. Check if user has read only or read write role
 
  ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/cba00210-a819-4aa0-9835-a77b4d09add7)
+
 # Authentication Flow JWT
 We are using an authentication method in which the server creates a JWT token and pass it to the client.
 JWT or Json web tokens is an open standard that defines a compact and self-contained way for securely transmitting information between parties as a Json object.
@@ -112,11 +113,29 @@ Microsoft.AspNetCore.Authentication.JwtBearer
 Microsoft.AspNetCore.Identity.EntityFrameworkCore
 microsoft.identitymodel.token
 microsoft.identitymodel.tokens.jwt
+
 # Create AuthDbContext , Roles , User API
 Create a AuthDbContext to communicate with authentication and users roles based 
 Create a AuthDBContext as like ApplicationDbContext
 This class will inherate from IdentityDbContext which is comes from using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 Create constractor with DbContextOptions
+
+# Roles and Users create by EF
+  we have to cede some roles that will be used to seed 
+later on when we create our users.
+So let's say we create a user and we want to give it a role.
+
+# Inject Authentication and DbContext API
+In Program. Cs inject DbContext as similer to ApplicationDbContext
+ ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/16b7ee9b-800f-462c-98ff-4d67a7940f09)
+
+If you want to a separate DB for Users Authentication so you can change the DB connection string for AuthDbContext.
+ 
+
+
+ 
+
+
 
 
  
