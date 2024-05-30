@@ -1,4 +1,4 @@
-# AuthCoreApi
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/bbc2ee26-3688-44db-830a-82129a040694)# AuthCoreApi
  AuthCoreApi is a robust .NET Core API designed with a Code-First DB approach, integrating comprehensive authentication, role-based authorization and access controls to ensure secure data management
 
  # .Net Core Web API 
@@ -218,6 +218,25 @@ Now for each request which have [Authorized ]
 Action Method , token will be necessary
 
 ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/8b2f7a31-268c-42ea-b6cc-6631218d4631)
+
+# Role Based Authorization-API
+Now we also want to perform role based authorization.
+So now that we know this user was correct, like they have the correct information of email and password,
+but if they don't have the correct role to perform a certain type of action, we are going to block them in the API.
+So let's say if a reader user uses the JWT token to do something to delete a resource, we should block them and that is how role based authorization works.
+[Authorize (Roles ="Writer")] public async Task<IActionResult> GetAllTranings()
+We are trying to call this method but we get 403 Forbiden error with 401 Unauthorized response.
+If we set the right role which are available to login person so it will be 200 in response.
+
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/23d4ad40-ef7b-4d4b-9d46-26e1ff1d9685)
+
+
+
+
+ 
+
+
+
 
 
 
