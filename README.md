@@ -1,4 +1,4 @@
-# AuthCoreApi
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/4edd2d41-8582-4608-9ae4-ddfcc62557e6)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/c8776534-e06d-4aba-825e-07ac0773afc7)# AuthCoreApi
  AuthCoreApi is a robust .NET Core API designed with a Code-First DB approach, integrating comprehensive role-based authorization and access controls to ensure secure data management
 
  # .Net Core Web API 
@@ -104,6 +104,24 @@ The API will check the username and password and if this information is correct 
 The website will then use this JWT token as a way to make Http calls to the API to access the resource of the API and get data from the API.
 The API will check if the token is correct and if it is, the API will return the data that the website asked for.
 If the website doesn't send a JWT or it is invalid, then no data is returned from the API.
+
+    ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/3e83d0e7-2e03-40d1-97ef-9b8d8dcba7f7)
+
+# Install Nuget Package API
+Microsoft.AspNetCore.Authentication.JwtBearer
+Microsoft.AspNetCore.Identity.EntityFrameworkCore
+microsoft.identitymodel.token
+microsoft.identitymodel.tokens.jwt
+# Create AuthDbContext , Roles , User API
+Create a AuthDbContext to communicate with authentication and users roles based 
+Create a AuthDBContext as like ApplicationDbContext
+This class will inherate from IdentityDbContext which is comes from using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+Create constractor with DbContextOptions
+
+
+ 
+ 
+
 
 
 
