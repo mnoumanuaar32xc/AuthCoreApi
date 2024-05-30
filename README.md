@@ -1,4 +1,4 @@
-![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/014a3ef1-79b4-423e-be92-b66942e34fa1)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/d4461a92-ba88-4bdf-9c04-6804f0a646da)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/4edd2d41-8582-4608-9ae4-ddfcc62557e6)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/c8776534-e06d-4aba-825e-07ac0773afc7)# AuthCoreApi
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/da91d3e4-d9a0-4713-a701-7c86ece0a5f9)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/5dcf8077-a9f4-4e26-8152-a28d4f78e06c)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/013a2b04-253d-401e-8754-652275cd450b)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/4d1f8789-78c3-4b92-936c-749659011fef)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/ef25614e-7164-4e52-8c2e-f80707f1543f)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/8d3d71d9-893b-40dc-b7b3-23fcfad5fef0)![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/1a2a837c-bbde-477d-ac37-1f1bf935a3ce)# AuthCoreApi
  AuthCoreApi is a robust .NET Core API designed with a Code-First DB approach, integrating comprehensive role-based authorization and access controls to ensure secure data management
 
  # .Net Core Web API 
@@ -131,9 +131,68 @@ In Program. Cs inject DbContext as similer to ApplicationDbContext
 
 If you want to a separate DB for Users Authentication so you can change the DB connection string for AuthDbContext.
  
+# Inject the Identity core in Program.cs 
+
+ ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/8a76a6be-9b2e-4680-afe1-34517f171952)
+
+# Configure the Identity Options 
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/87892e87-de42-4f29-a74c-3ef6eed209f4)
+
+# Define the Token Authentication for Jwt Token  
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/70cf0dbe-7260-4eb1-9252-e8591bc2c3c0)
+
+# Add jwt configurations in appsetting.js 
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/88e3d232-cd91-4fc1-b17c-b77460266df4)
+
+# Add Authentication in the http pipeline
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/83454f82-3862-492d-8e3d-568365ba3f7a)
+
+# Test Authorized Attributes
+Try to run the Api and see how we achieve the authentication 
+And try to pass the token and without passing token what's output you will receive.
+Let try to run the Get Category API Execute 
+You will get all Api working fine and responses . Nothing being api call like authentication and authorizations.
+
+ # How to Authorize the Method 
+ Need to use [Authorized] attribute on function or on controller . 
+With authorized method without tokens it return Error: response status is 401
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/f4035168-5528-4b75-a3b8-062ec88b1f0d)
+
+# Auth Controller – Registered User-API
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/0fad3f36-72b1-428a-bc09-a127ea64b788)
+
+# Auth Register Api  
+When we run the Auth Register Api method it return 500 error because we did not create any table for authenticate user and not run the migration.
+
+# Create Authentication Tables – Run EF Core Migration. 
+go to tools => NuGet Package Manager => Package Manager Console 
+PM> Add-Migration "Initial Migration For Auth“
+PM> Add-Migration "Initial Migration For Auth" -context "AuthDbContext“
+PM> Update-Database -context "AuthDbContext"
+
+# After Migration Auth  
+You can see after Migration Asp.net Tables are created
+![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/5e9ac808-af72-42e5-ba84-5078959e0877)
+
+# Login Controller – Login User-API 
+
+ 
 
 
  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
