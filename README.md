@@ -8,6 +8,9 @@
 4. Role Based Authorization
 5. Role Based Access  
 
+# in this Api example we will cover following Examples 
+ ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/ff50a2d8-f291-432c-8b6f-9d77ea0ebf44)
+
 # Create a Asp .NET Core Web API
 ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/2b1f1dc8-d5c6-4e5b-94d6-2d8c88627a3e)
 
@@ -248,10 +251,12 @@ Try to login with new user and check authorization with new token
 ![image](https://github.com/mnoumanuaar32xc/AuthCoreApi/assets/8413883/3c418987-7166-4359-9886-c5034f008359)
 
  
-# in this Api example we covered following Examples 
 
-![Uploading image.png…]()
 
+ # Thanks For Reading all content Please Follow me reate me Thanks .
+ Muhammad Nouman Khan 
+ Whats App No:- +968-94420975 | +92304-3487853
+ mnoumanuaar@yahoo.com
 
 
 
